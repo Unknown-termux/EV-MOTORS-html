@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>EV MARKETPLACE</title>
+        <link rel="shortcut icon" href="./images/logo.jpeg" type="image/x-icon">
+    </head>
+<body background="./images/bg.jfif">
+    
+    <img src="./images/logo.jpeg" class="logo" alt="logo.jpeg?#" width="20%" height="40%">
+    <div class="navbar">
+        <ul>
+            
+            <li><a href="#">NeEW UPCOMINGS</a></li><br>
+            <li><a href="#">CATEGORY</a></li><br>
+            <li><a href="#">#join_the_evtrend</a></li><br>
+            <li><a href="#">CONTACT US</a></li><br>
+            <li><a style="cursor: pointer;" onclick="openForm()">Login</a></li><br>
+        </ul>
+    </div>
+    
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+                
+                <h1 style="font-family: monospace; text-decoration: underline; color: rgb(189, 189, 189);">Login</h1>
+                <label for="email" style="font-family: monospace; font-size: 30px; color: rgb(189, 189, 189);"><b>Email</b></label><br>
+                <input type="text" name="email" placeholder="Enter Email" required>
+                    <br>
+                <label for="psw"  style="font-family: monospace;  font-size: 30px; color: rgb(189,189,189);"><b>Password</b></label><br>
+                <input type="password" name="psw" placeholder="Enter Password" required>
+                
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+            </script>
+
+    
+         <div class="rightimg">
+             <img src="./images/tesla.webp" alt="cars%$" width="100%" height="120%">
+             <div>
+               <p> <h1>Electric Car</h1>
+                This article is about cars which are powered only by batteries. 
+                For vehicles with both an internal combustion engine and electric propulsion, see Hybrid electric vehicle.
+                Research has shown that electric cars are better for the environment.
+                 They emit fewer greenhouse gases and air pollutants than petrol or diesel cars.
+                 And this takes into account their production and electricity generation to keep them running. 
+               <br> <a href="https://en.wikipedia.org/wiki/Electric_car">Read more...</a>
+            </p>
+             </div>
+         </div>
+         <br><br><br><br><br>
+        
+         <div>
+             <hr style="width: 50%; justify-content: center; height: 1px; color: #000; background-color: #000;">
+             <h1 class="latest">From across the World</h1>
+             <hr style="width: 50%; justify-content: center; height: 1px; color: #000; background-color: #000;">
+             <br><br>
+             <section id="slider">
+                <input type="radio" name="slider" id="s1">
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3" checked>
+                <input type="radio" name="slider" id="s4">   
+                <input type="radio" name="slider" id="s5">  
+                    <label for="s1" id="slider1">
+                        <img src="./images/slider/img1.jpg" alt="img" width="100%" height="100%">
+                </label>
+                <label for="s2" id="slider2">
+                    <img src="./images/slider/img2.jpg" alt="img" width="100%" height="100%">
+                </label>
+                <label for="s3" id="slider3">
+                    <img src="./images/slider/img3.jpg" alt="img" width="100%" height="100%">
+                </label>
+                <label for="s4" id="slider4">
+                    <img src="./images/slider/img4.jpg" alt="img" width="100%" height="100%">
+                </label>
+                <label for="s5" id="slider5">
+                    <img src="./images/slider/img5.webp" alt="img" width="100%" height="100%">
+                </label>
+             </section>
+         </div>
+         <br><br><br><br><br><br>
+<!-- latest up comings!!(data from cardekho.com) -->
+         <div class="new">
+             <h1 >Latest up comings!&nbsp;&nbsp;&nbsp;</h1>
+             <div class="content">
+                 <blockquote class="cars">
+                    <img src="./images/Products/BME i4.jfif" alt="BMW i4" width="100%" height="33%"><br>
+                    <h2> BMW i4
+                       <br> ₹80.00 lakhs (estimated)
+                    </h2>
+                </blockquote>
+                <blockquote class="cars">
+                    <img src="./images/Products/KIA EV6.jpg" alt="KIA" width="100%" height="33%"><br>
+                    <h2> KIA EV6
+                       <br> ₹65.00 (estimated)
+                    </h2>
+                </blockquote>
+                <blockquote class="cars">
+                    <img src="./images/Products/ford.jpg" alt="ford" width="100%" height="33%"><br>
+                    <h2> Ford Mustang Mach E
+                       <br> ₹70.00 lakhs (estimated)
+                    </h2>
+                </blockquote>
+                <br>
+                <blockquote class="cars">
+                    <img src="./images/Products/hyundai-kona.jpg" alt="hyundai-kona" width="100%" height="33%"><br>
+                    <h2> Hyundai Kona Electric 2022
+                       <br> ₹23.75 lakhs (estimated)
+                    </h2>
+                </blockquote>
+                <blockquote class="cars">
+                    <img src="./images/Products/mersedes.jpg" alt="mersedes" width="100%" height="33%"><br>
+                    <h2> Mercedes-Benz EQS
+                       <br> ₹1.75 Cr. (estimated)
+                    </h2>
+                </blockquote>
+                <blockquote class="cars">
+                    <img src="./images/Products/tesla.jpg" alt="tesla#" width="100%" height="33%"><br>
+                    <h2> Tesla Model X
+                       <br> ₹2.00 Cr. (estimated)
+                    </h2>
+                </blockquote>
+
+            </div>
+         </div>
+</body>
+</html>
